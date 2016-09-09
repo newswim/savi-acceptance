@@ -1,0 +1,31 @@
+{
+  "name": "savi-acceptance",
+  "version": "1.0.0",
+  "description": "BDD-style acceptance tests for the SAVI application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "chimp-watch": "chimp --ddp=http://localhost:3000 --watch --mocha --path=tests",
+    "chimp-test": "chimp --mocha --path=tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newswim/savi-acceptance.git"
+  },
+  "keywords": [
+    "chimp",
+    "mocha",
+    "webdriver",
+    "acceptance",
+    "test"
+  ],
+  "author": "Dan Minshew",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/newswim/savi-acceptance/issues"
+  },
+  "homepage": "https://github.com/newswim/savi-acceptance#readme",
+  "devDependencies": {
+    "semver-regex": "1.0.0"
+  }
+}
